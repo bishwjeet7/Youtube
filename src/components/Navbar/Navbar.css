@@ -40,3 +40,30 @@
     font-weight: bold;
     margin-left: 2px;
 }
+
+.apps_Box{
+    width: 25px;
+    margin: auto 0.7rem;
+    height: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.appBox{
+    border: 1px solid white;
+    margin: 0.1rem;
+    width: 2px;
+    height: 2px;
+}
+
+.Auth_cont_Navbar{
+    width: fit-content;
+    margin: auto 0.5rem;
+    position: relative;
+    display: flex;
+}
+
+.Auth_btn{
+    cursor: pointer;
+}
