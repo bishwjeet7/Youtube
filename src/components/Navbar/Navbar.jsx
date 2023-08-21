@@ -1,6 +1,7 @@
 import React from 'react'
 import './Navbar.css'
 import logo from './youtube.ico'
+import SearhBar from '../SearchBar/SearhBar'
 function Navbar() {
   return (
     <div className='Container_Navbar'>
@@ -15,6 +16,7 @@ function Navbar() {
                 <p className='logo_title_navbar'> Youtube</p>
             </div>
         </div>
+        <SearhBar/>
     </div>
   )
 }
