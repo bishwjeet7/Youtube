@@ -66,4 +66,10 @@
 
 .Auth_btn{
     cursor: pointer;
+    color: #3ea6ff;
+    background-color: rgb(36, 36, 36);
+    border: 2px solid;
+    padding: 0.1rem;
+    border-radius: 0.1rem;
+
 }
