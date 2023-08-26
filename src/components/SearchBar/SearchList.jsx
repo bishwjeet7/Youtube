@@ -1,11 +1,21 @@
-import React from 'react'
-
-function SearchList() {
+import React from 'react';
+import './SearchList.css';
+import {FaSearch} from 'react-icons/fa'
+function SearchList(TitleArray) {
   return (
     <>
-        <div className="Container_Search">
-            <p className='titleItem'>item 1</p>
-            <p className='titleItem'>item 2</p>
+        <div className="Container_SearchList">
+          {
+            TitleArray.map(m=>{
+              return key
+            })
+          }
+            <p className='titleItem'>
+              <FaSearch/>
+              item 1</p>
+            <p className='titleItem'>
+              <FaSearch/>
+              item 2</p>
         </div>
     </>
   )
