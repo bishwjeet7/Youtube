@@ -8,7 +8,7 @@ import SearchList from './SearchList';
 function SearhBar() {
   const [searchQuery, setSearchQuery] = useState("");
   const [searchListA, setSearchList] = useState(false);
-  const TitleArray=["video1","Video 2", "Animation video", "Movies"];
+  const TitleArray=["video1","Video 2", "Animation video", "Movies"].filter(q=>q.includes(searchQuery));
   return (
     <>
         <div className='SearchBar_Container'>
