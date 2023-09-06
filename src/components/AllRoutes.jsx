@@ -6,7 +6,7 @@ import {Routes, Route } from 'react-router-dom';
 function AllRoutes() {
   return (
     <Routes>
-        <Route path='/' Component={<Home/>}/>
+        <Route path='/' element={<Home/>}/>
     </Routes>
   )
 }
