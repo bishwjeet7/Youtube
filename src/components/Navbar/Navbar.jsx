@@ -6,6 +6,7 @@ import SearhBar from '../SearchBar/SearhBar';
 import {RiVideoAddLine} from 'react-icons/ri';
 import {BiUserCircle} from 'react-icons/bi';
 import {IoMdNotificationsOutline} from "react-icons/io";
+import { Link} from 'react-router-dom';
 
 function Navbar() {
   // const CurrentUser = null;
@@ -23,10 +24,10 @@ function Navbar() {
                 <p></p>
                 <p></p>
             </div>
-            <div className='logo_div_Navbar'>
+            <Link to={'/'} className='logo_div_Navbar'>
                 <img src={logo} alt='logo' className='Logo'/>
                 <p className='logo_title_navbar'> Youtube</p>
-            </div>
+            </Link>
         </div>
         <SearhBar/>
         <RiVideoAddLine size={22} className={"vid_bell_Navbar"}/>
