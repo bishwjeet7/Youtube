@@ -31,3 +31,18 @@
     color: aliceblue;
     background-color: rgb(68, 68, 68);
 }
+
+
+/*Drawer Sidebar*/
+.container_DrawerLeftSidebar{
+    height: calc(100vh - 3.6rem);
+    position: absolute;
+    width: 100vw;
+    z-index: 500;
+}
+
+.container2_DrawerLeftSidebar{
+    background-color: rgb(28, 28, 28);
+    width: 15rem;
+    overflow-y: auto;
+}
